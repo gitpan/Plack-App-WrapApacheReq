@@ -1,0 +1,25 @@
+---
+abstract: 'Wrapping mod_perl2 applications in Plack'
+author:
+  - 'Peter Makholm, L<peter@makholm.net>'
+configure_requires:
+  Module::Build: 0.36
+generated_by: 'Module::Build version 0.3607'
+license: unknown
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.4.html
+  version: 1.4
+name: Plack-App-WrapApacheReq
+provides:
+  Plack::App::WrapApacheReq:
+    file: lib/Plack/App/WrapApacheReq.pm
+    version: 0.01
+  Plack::App::WrapApacheReq::FakeRequest:
+    file: lib/Plack/App/WrapApacheReq/FakeRequest.pm
+requires:
+  APR::Pool: 0
+  APR::Table: 0
+  Plack: 0
+resources:
+  repository: http://github.com/pmakholm/plack-app-wrapapachereq/tree/master
+version: 0.01
